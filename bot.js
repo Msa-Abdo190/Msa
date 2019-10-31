@@ -3,7 +3,7 @@ var fs = require('fs');
 var client = new Discord.Client();
 
 client.on('ready', () => {
-  console.log(`Welcome Bro ${client.user.tag}!`);
+  console.log(`Welcome Pro ${client.user.tag}!`);
 });
 var prefix = '#'
 
@@ -11,7 +11,7 @@ client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "ID حقك") return;
+  if (message.author.id !== "544225475686301736") return;
 
   
   if (message.content.startsWith(prefix + 'setwatch')) {
